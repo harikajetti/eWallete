@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E74F80EB1F092BD80080F9D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74F80EA1F092BD80080F9D4 /* AppDelegate.swift */; };
+		E74F80ED1F092BD80080F9D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74F80EC1F092BD80080F9D4 /* ViewController.swift */; };
+		E74F80F01F092BD80080F9D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E74F80EE1F092BD80080F9D4 /* Main.storyboard */; };
+		E74F80F31F092BD80080F9D4 /* eWallete.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E74F80F11F092BD80080F9D4 /* eWallete.xcdatamodeld */; };
+		E74F80F51F092BD80080F9D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74F80F41F092BD80080F9D4 /* Assets.xcassets */; };
+		E74F80F81F092BD80080F9D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E74F80F61F092BD80080F9D4 /* LaunchScreen.storyboard */; };
+		E74F81031F092BD80080F9D4 /* eWalleteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74F81021F092BD80080F9D4 /* eWalleteTests.swift */; };
+		E74F810E1F092BD80080F9D4 /* eWalleteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74F810D1F092BD80080F9D4 /* eWalleteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E74F80FF1F092BD80080F9D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E74F80DF1F092BD80080F9D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E74F80E61F092BD80080F9D4;
+			remoteInfo = eWallete;
+		};
+		E74F810A1F092BD80080F9D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E74F80DF1F092BD80080F9D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E74F80E61F092BD80080F9D4;
+			remoteInfo = eWallete;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E74F80E71F092BD80080F9D4 /* eWallete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eWallete.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74F80EA1F092BD80080F9D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E74F80EC1F092BD80080F9D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E74F80EF1F092BD80080F9D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E74F80F21F092BD80080F9D4 /* eWallete.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = eWallete.xcdatamodel; sourceTree = "<group>"; };
+		E74F80F41F092BD80080F9D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E74F80F71F092BD80080F9D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E74F80F91F092BD80080F9D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E74F80FE1F092BD80080F9D4 /* eWalleteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eWalleteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74F81021F092BD80080F9D4 /* eWalleteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eWalleteTests.swift; sourceTree = "<group>"; };
+		E74F81041F092BD80080F9D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E74F81091F092BD80080F9D4 /* eWalleteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eWalleteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74F810D1F092BD80080F9D4 /* eWalleteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eWalleteUITests.swift; sourceTree = "<group>"; };
+		E74F810F1F092BD80080F9D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E74F80E41F092BD80080F9D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74F80FB1F092BD80080F9D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74F81061F092BD80080F9D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E74F80DE1F092BD80080F9D4 = {
+			isa = PBXGroup;
+			children = (
+				E74F80E91F092BD80080F9D4 /* eWallete */,
+				E74F81011F092BD80080F9D4 /* eWalleteTests */,
+				E74F810C1F092BD80080F9D4 /* eWalleteUITests */,
+				E74F80E81F092BD80080F9D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E74F80E81F092BD80080F9D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E74F80E71F092BD80080F9D4 /* eWallete.app */,
+				E74F80FE1F092BD80080F9D4 /* eWalleteTests.xctest */,
+				E74F81091F092BD80080F9D4 /* eWalleteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E74F80E91F092BD80080F9D4 /* eWallete */ = {
+			isa = PBXGroup;
+			children = (
+				E74F80EA1F092BD80080F9D4 /* AppDelegate.swift */,
+				E74F80EC1F092BD80080F9D4 /* ViewController.swift */,
+				E74F80EE1F092BD80080F9D4 /* Main.storyboard */,
+				E74F80F41F092BD80080F9D4 /* Assets.xcassets */,
+				E74F80F61F092BD80080F9D4 /* LaunchScreen.storyboard */,
+				E74F80F91F092BD80080F9D4 /* Info.plist */,
+				E74F80F11F092BD80080F9D4 /* eWallete.xcdatamodeld */,
+			);
+			path = eWallete;
+			sourceTree = "<group>";
+		};
+		E74F81011F092BD80080F9D4 /* eWalleteTests */ = {
+			isa = PBXGroup;
+			children = (
+				E74F81021F092BD80080F9D4 /* eWalleteTests.swift */,
+				E74F81041F092BD80080F9D4 /* Info.plist */,
+			);
+			path = eWalleteTests;
+			sourceTree = "<group>";
+		};
+		E74F810C1F092BD80080F9D4 /* eWalleteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E74F810D1F092BD80080F9D4 /* eWalleteUITests.swift */,
+				E74F810F1F092BD80080F9D4 /* Info.plist */,
+			);
+			path = eWalleteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E74F80E61F092BD80080F9D4 /* eWallete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74F81121F092BD80080F9D4 /* Build configuration list for PBXNativeTarget "eWallete" */;
+			buildPhases = (
+				E74F80E31F092BD80080F9D4 /* Sources */,
+				E74F80E41F092BD80080F9D4 /* Frameworks */,
+				E74F80E51F092BD80080F9D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eWallete;
+			productName = eWallete;
+			productReference = E74F80E71F092BD80080F9D4 /* eWallete.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E74F80FD1F092BD80080F9D4 /* eWalleteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74F81151F092BD80080F9D4 /* Build configuration list for PBXNativeTarget "eWalleteTests" */;
+			buildPhases = (
+				E74F80FA1F092BD80080F9D4 /* Sources */,
+				E74F80FB1F092BD80080F9D4 /* Frameworks */,
+				E74F80FC1F092BD80080F9D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E74F81001F092BD80080F9D4 /* PBXTargetDependency */,
+			);
+			name = eWalleteTests;
+			productName = eWalleteTests;
+			productReference = E74F80FE1F092BD80080F9D4 /* eWalleteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E74F81081F092BD80080F9D4 /* eWalleteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74F81181F092BD80080F9D4 /* Build configuration list for PBXNativeTarget "eWalleteUITests" */;
+			buildPhases = (
+				E74F81051F092BD80080F9D4 /* Sources */,
+				E74F81061F092BD80080F9D4 /* Frameworks */,
+				E74F81071F092BD80080F9D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E74F810B1F092BD80080F9D4 /* PBXTargetDependency */,
+			);
+			name = eWalleteUITests;
+			productName = eWalleteUITests;
+			productReference = E74F81091F092BD80080F9D4 /* eWalleteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E74F80DF1F092BD80080F9D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HARIKAharika;
+				TargetAttributes = {
+					E74F80E61F092BD80080F9D4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E74F80FD1F092BD80080F9D4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E74F80E61F092BD80080F9D4;
+					};
+					E74F81081F092BD80080F9D4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E74F80E61F092BD80080F9D4;
+					};
+				};
+			};
+			buildConfigurationList = E74F80E21F092BD80080F9D4 /* Build configuration list for PBXProject "eWallete" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E74F80DE1F092BD80080F9D4;
+			productRefGroup = E74F80E81F092BD80080F9D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E74F80E61F092BD80080F9D4 /* eWallete */,
+				E74F80FD1F092BD80080F9D4 /* eWalleteTests */,
+				E74F81081F092BD80080F9D4 /* eWalleteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E74F80E51F092BD80080F9D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74F80F81F092BD80080F9D4 /* LaunchScreen.storyboard in Resources */,
+				E74F80F51F092BD80080F9D4 /* Assets.xcassets in Resources */,
+				E74F80F01F092BD80080F9D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74F80FC1F092BD80080F9D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74F81071F092BD80080F9D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E74F80E31F092BD80080F9D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74F80ED1F092BD80080F9D4 /* ViewController.swift in Sources */,
+				E74F80EB1F092BD80080F9D4 /* AppDelegate.swift in Sources */,
+				E74F80F31F092BD80080F9D4 /* eWallete.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74F80FA1F092BD80080F9D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74F81031F092BD80080F9D4 /* eWalleteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74F81051F092BD80080F9D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74F810E1F092BD80080F9D4 /* eWalleteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E74F81001F092BD80080F9D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E74F80E61F092BD80080F9D4 /* eWallete */;
+			targetProxy = E74F80FF1F092BD80080F9D4 /* PBXContainerItemProxy */;
+		};
+		E74F810B1F092BD80080F9D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E74F80E61F092BD80080F9D4 /* eWallete */;
+			targetProxy = E74F810A1F092BD80080F9D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E74F80EE1F092BD80080F9D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E74F80EF1F092BD80080F9D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E74F80F61F092BD80080F9D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E74F80F71F092BD80080F9D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E74F81101F092BD80080F9D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E74F81111F092BD80080F9D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E74F81131F092BD80080F9D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = eWallete/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harika.eWallete;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E74F81141F092BD80080F9D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = eWallete/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harika.eWallete;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E74F81161F092BD80080F9D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = eWalleteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harika.eWalleteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eWallete.app/eWallete";
+			};
+			name = Debug;
+		};
+		E74F81171F092BD80080F9D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = eWalleteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harika.eWalleteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eWallete.app/eWallete";
+			};
+			name = Release;
+		};
+		E74F81191F092BD80080F9D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = eWalleteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harika.eWalleteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = eWallete;
+			};
+			name = Debug;
+		};
+		E74F811A1F092BD80080F9D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = eWalleteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harika.eWalleteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = eWallete;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E74F80E21F092BD80080F9D4 /* Build configuration list for PBXProject "eWallete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74F81101F092BD80080F9D4 /* Debug */,
+				E74F81111F092BD80080F9D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74F81121F092BD80080F9D4 /* Build configuration list for PBXNativeTarget "eWallete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74F81131F092BD80080F9D4 /* Debug */,
+				E74F81141F092BD80080F9D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E74F81151F092BD80080F9D4 /* Build configuration list for PBXNativeTarget "eWalleteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74F81161F092BD80080F9D4 /* Debug */,
+				E74F81171F092BD80080F9D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E74F81181F092BD80080F9D4 /* Build configuration list for PBXNativeTarget "eWalleteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74F81191F092BD80080F9D4 /* Debug */,
+				E74F811A1F092BD80080F9D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E74F80F11F092BD80080F9D4 /* eWallete.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E74F80F21F092BD80080F9D4 /* eWallete.xcdatamodel */,
+			);
+			currentVersion = E74F80F21F092BD80080F9D4 /* eWallete.xcdatamodel */;
+			path = eWallete.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E74F80DF1F092BD80080F9D4 /* Project object */;
+}
