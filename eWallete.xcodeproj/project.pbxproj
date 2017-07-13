@@ -15,6 +15,11 @@
 		E74F80F81F092BD80080F9D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E74F80F61F092BD80080F9D4 /* LaunchScreen.storyboard */; };
 		E74F81031F092BD80080F9D4 /* eWalleteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74F81021F092BD80080F9D4 /* eWalleteTests.swift */; };
 		E74F810E1F092BD80080F9D4 /* eWalleteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74F810D1F092BD80080F9D4 /* eWalleteUITests.swift */; };
+		E74F815A1F0A14950080F9D4 /* Expense+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74F81581F0A14950080F9D4 /* Expense+CoreDataProperties.swift */; };
+		E74F815B1F0A14950080F9D4 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74F81591F0A14950080F9D4 /* Expense.swift */; };
+		E74F815E1F0A62FD0080F9D4 /* AddExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74F815D1F0A62FD0080F9D4 /* AddExpenseViewController.swift */; };
+		E74F81621F0BA6BF0080F9D4 /* ExpenseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74F81611F0BA6BF0080F9D4 /* ExpenseTableViewCell.swift */; };
+		E74F81661F0F6E8D0080F9D4 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74F81651F0F6E8D0080F9D4 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		E74F81091F092BD80080F9D4 /* eWalleteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eWalleteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E74F810D1F092BD80080F9D4 /* eWalleteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eWalleteUITests.swift; sourceTree = "<group>"; };
 		E74F810F1F092BD80080F9D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E74F81581F0A14950080F9D4 /* Expense+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Expense+CoreDataProperties.swift"; path = "../Expense+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E74F81591F0A14950080F9D4 /* Expense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Expense.swift; path = ../Expense.swift; sourceTree = "<group>"; };
+		E74F815D1F0A62FD0080F9D4 /* AddExpenseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddExpenseViewController.swift; sourceTree = "<group>"; };
+		E74F81611F0BA6BF0080F9D4 /* ExpenseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExpenseTableViewCell.swift; path = ../ExpenseTableViewCell.swift; sourceTree = "<group>"; };
+		E74F81651F0F6E8D0080F9D4 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +111,14 @@
 			children = (
 				E74F80EA1F092BD80080F9D4 /* AppDelegate.swift */,
 				E74F80EC1F092BD80080F9D4 /* ViewController.swift */,
+				E74F81651F0F6E8D0080F9D4 /* SettingViewController.swift */,
+				E74F81611F0BA6BF0080F9D4 /* ExpenseTableViewCell.swift */,
+				E74F815D1F0A62FD0080F9D4 /* AddExpenseViewController.swift */,
 				E74F80EE1F092BD80080F9D4 /* Main.storyboard */,
 				E74F80F41F092BD80080F9D4 /* Assets.xcassets */,
 				E74F80F61F092BD80080F9D4 /* LaunchScreen.storyboard */,
 				E74F80F91F092BD80080F9D4 /* Info.plist */,
-				E74F80F11F092BD80080F9D4 /* eWallete.xcdatamodeld */,
+				E74F815C1F0A14CD0080F9D4 /* Model */,
 			);
 			path = eWallete;
 			sourceTree = "<group>";
@@ -126,6 +139,16 @@
 				E74F810F1F092BD80080F9D4 /* Info.plist */,
 			);
 			path = eWalleteUITests;
+			sourceTree = "<group>";
+		};
+		E74F815C1F0A14CD0080F9D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E74F81581F0A14950080F9D4 /* Expense+CoreDataProperties.swift */,
+				E74F81591F0A14950080F9D4 /* Expense.swift */,
+				E74F80F11F092BD80080F9D4 /* eWallete.xcdatamodeld */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +282,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E74F815A1F0A14950080F9D4 /* Expense+CoreDataProperties.swift in Sources */,
+				E74F815E1F0A62FD0080F9D4 /* AddExpenseViewController.swift in Sources */,
+				E74F81621F0BA6BF0080F9D4 /* ExpenseTableViewCell.swift in Sources */,
+				E74F81661F0F6E8D0080F9D4 /* SettingViewController.swift in Sources */,
 				E74F80ED1F092BD80080F9D4 /* ViewController.swift in Sources */,
 				E74F80EB1F092BD80080F9D4 /* AppDelegate.swift in Sources */,
 				E74F80F31F092BD80080F9D4 /* eWallete.xcdatamodeld in Sources */,
+				E74F815B1F0A14950080F9D4 /* Expense.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = eWallete/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.harika.eWallete;
@@ -416,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = eWallete/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.harika.eWallete;
